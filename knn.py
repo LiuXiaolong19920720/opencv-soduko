@@ -60,7 +60,7 @@ model.train(train_input,cv2.ml.ROW_SAMPLE,train_label)
 #print(string)
 #print(test_label.reshape(1,len(test_label))[0])
 
-img = cv2.imread('001.jpg')
+img = cv2.imread('./images/001.jpg')
 gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 ## 阈值分割
 ret,thresh = cv2.threshold(gray,200,255,1)
