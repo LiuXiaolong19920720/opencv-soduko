@@ -4,7 +4,7 @@
 
 - Get numbers in the image
 
-- Recognise the numbers
+- Recognise the numbers (Train a knn here)
 
 - Generate soduko and solve it
 
